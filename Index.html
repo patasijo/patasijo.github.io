@@ -7,12 +7,24 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <img src="soekarno_black.png" alt="Image 1" style="width:100%;">
+  <picture>
+    <source srcset="soekarno_small.png" media="(max-width: 766px)">
+    <source srcset="soekarno_black.png" media="(max-width: 1920px)">
+    <!--source srcset="flowers.jpg"-->
+    <img src="soekarno_black.png" alt="soekarno_black" style="width:auto;">
+  </picture>
+  <!--img src="soekarno_black.png" alt="Image 1" style="width:100%;"-->
   <div class="scroll-animation">
-    <img src="faktanya.png" alt="Image 2">
+    <picture>
+      <source srcset="poverty1_small.png" media="(max-width: 766px)">
+      <source srcset="faktanya2.png" media="(max-width: 1920px)">
+      <!--source srcset="flowers.jpg"-->
+      <img src="faktanya2.png" alt="faktanya2" style="width:auto;">
+    </picture>
+    <!--img src="faktanya.png" alt="Image 2">
     <img src="faktanya2.png" alt="Image 3">
     <img src="cloudandcliff.png" alt="Image 4">
-    <img src="blacksky.png" alt="Image 5">
+    <img src="blacksky.png" alt="Image 5"-->
   </div>
 
   <script src="script.js"></script>
