@@ -11,7 +11,7 @@
 
 /* Media Queries */
 
-@media (max-width: 767px) {
+@media (max-width: 1920px) {
 
   .scroll-animation img {
     width: 100%;
